@@ -55,6 +55,9 @@
     <ClCompile Include="GeneratedFiles\qrc_OptSolver.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="queens.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="OptSolver.h">
@@ -70,6 +73,12 @@
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_OptSolver.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="queens.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scip_exception.hpp">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
